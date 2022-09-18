@@ -14,23 +14,25 @@ const trade = () => {
 				Trade My Sports 
 			</h2>
 			
-      <button
-				className='text-2xl font-bold py-3 px-12 bg-[#dcdcdc] rounded-lg mb-10 hover:scale-105 transition duration-500 ease-in-out'>
+        <button
+				className='text-2xl font-bold py-3 px-12 bg-[#f1c232] rounded-lg mb-10 hover:scale-105 transition duration-500 ease-in-out' type="button" onClick={() => Router.push('/createtoken')}>
+        Create Tokens
+        </button>
+
+
+        <button
+				className='text-2xl font-bold py-3 px-12 bg-[#f1c232] rounded-lg mb-10 hover:scale-105 transition duration-500 ease-in-out'>
         <h2 className='text-2xl font-bold mb-10 mt-4'>
-				Current Token Holding
+				Current Worth
 			  </h2>
         <h2 className='text-2xl font-bold mb-10 mt-4'>
 				0.005 ETH
 			  </h2>
         <h2 className='text-2xl font-bold mb-10 mt-4'>
-				Gain/Loss
+				Gain/Loss %
 			  </h2>
         </button>
 
-        <button
-				className='text-2xl font-bold py-3 px-12 bg-[#f1c232] rounded-lg mb-10 hover:scale-105 transition duration-500 ease-in-out' type="button" onClick={() => Router.push('/createtoken')}>
-        Trade
-        </button>
 
 		</div>
 	)
